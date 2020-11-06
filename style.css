@@ -19,36 +19,47 @@ body {
 }
 
   body > div {
-    width: 800px;
-    margin-left: calc( (100% - 800px) / 2);
+    width: 900px;
+    margin-left: calc( (100% - 900px) / 2);
   }
 
   header {
     width: 100%;
     height: 60px;
-    padding: 15px 30px;
+    padding: 15px;
+    /* background-color: whitesmoke; */
+    margin-top: 5px;
   }
 
     header > h2 {
       float: left;
-      width: 15%;
+      width: 20%;
       color: #01243f;
+      /* background-color: wheat; */
+      text-align: center;
+      line-height: 30px;
     }
 
     nav {
       float: left;
-      width: 50%;
-      padding-left: 30px;
+      width: 40%;
+      /* background-color: turquoise; */
     }
       nav > a {
-        display: inline-block;
-        padding: 5px;
+        /* display: inline-block; */
+        padding: 0 12px;
+        /* background-color: violet; */
+        float: left;
+        margin-left: 5px;
+        line-height: 30px;
       }
     header > a {
-      float: left;
-      width: 35%;
-      text-align: right;
+      float: right;
+      width: 20%;
+      text-align: center;
       color: #d47618;
+      /* background-color: thistle; */
+      line-height: 30px;
     }
 
   div > div {
